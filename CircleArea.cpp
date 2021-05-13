@@ -3,7 +3,7 @@
 //  CircleArea
 //
 //  Created by Aniekan Umanah on 13/05/2021.
-//  This program calculates the area of a circular disc
+//  NOTE: This program calculates the area of a circular disc
 
 #include <iostream>
 
