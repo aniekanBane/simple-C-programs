@@ -6,6 +6,7 @@
 //  NOTE: This program calculates the area of a circular disc
 
 #include <iostream>
+//#include "math.h"
 
 using namespace std;
 #define PI 3.1415926 //define directive, replace the occurence of PI with the value
@@ -17,6 +18,7 @@ int main(int argc, const char * argv[])
     cout << "Enter the radius of the disc in mm\n";
     cin >> radius;
     area = PI * (radius*radius); // area of a circle
+    //area = PI * pow(radius,2);
     cout << "\nThe area of the disc is " << area << "mm^2\n"; // print result
     return 0; // exit
 }
