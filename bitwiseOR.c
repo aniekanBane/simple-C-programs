@@ -23,7 +23,7 @@ void ORfunction(char * strArr[], int arrLength){
             }
         }
        printf("%s", res);
-      } else fprintf(stderr, "Elements should be the of smae length!");
+      } else fprintf(stderr, "Elements should be the of same length!");
   } else fprintf(stderr, "Array must be of lenght 2.");
       
 }
